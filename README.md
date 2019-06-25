@@ -1,6 +1,8 @@
 # docker-counter
 A tiny Docker container that simply returns an incrementing count over the network via netcat (nc) and bash.
 
+https://hub.docker.com/r/drosenbauer/docker-counter
+
 You may specify the port as an environment variable `PORT`. **Default port if not specified is 12345** (for counting, get it?). Note that 12345 is commonly used by malware, so your system administrators may appreciate it if you choose a different one.
 
 # Example
